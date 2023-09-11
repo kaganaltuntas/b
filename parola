@@ -1,0 +1,7 @@
+import random
+def sifre_yap(uzunluk):
+ sembol = "+-/*!&$#?=@abcdefghijklnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890"
+ sifre = ""
+ for i in range(uzunluk):
+  sifre += random.choice(sembol)
+ return sifre   
