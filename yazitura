@@ -1,0 +1,5 @@
+import random
+def yazi_tura():
+ secenek = ["yazı","tura"]
+ a = random.choice(secenek)
+ return a
