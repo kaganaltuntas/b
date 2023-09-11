@@ -1,0 +1,5 @@
+import random
+komik = ["büyük su küçük suya ne demiş:sucuk","bir adam yolda bir kel görmüş ve seslenmiş:heykel","Karşıdan baktım hiç yok, yanına vardım pek çok:Karınca","Ne yersen orucun bozulmaz?:Dayak","eli olmayan babaya ne denir:NOEL BABA"]
+def bilmece_sor():
+ a = random.choice(komik)
+ return a
